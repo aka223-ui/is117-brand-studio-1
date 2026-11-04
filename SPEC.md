@@ -6,10 +6,10 @@ This is the durable agreement between the learner and agent. Keep it concise and
 
 ## Current stage
 
-- Stage: Baseline ready to try; brand decisions pending.
+- Stage: Revised artwork approved; preparing reviewed submission records.
 - Current feature: `BRAND-001` — first branded storefront and live style guide.
-- Status: Pending learner scope agreement.
-- Next small decision: Confirm the first slice after trying the neutral storefront.
+- Status: Scope agreed; issue #1 and branch brand-001 exist.
+- Next small decision: Review LEARNING.md for accuracy before commit/push.
 
 ## Product boundary
 
@@ -19,24 +19,24 @@ The product is the same white T-shirt throughout the comparison. The baseline of
 
 The primary need guides the page. Give the secondary card one contrasting need to check that same page; keep both cards brief.
 
-| Tiny card                             | Primary audience          | Secondary audience        |
-| ------------------------------------- | ------------------------- | ------------------------- |
-| Person in a concrete situation        | Not chosen yet            | Not chosen yet            |
-| Goal or meaning they seek             | Not chosen yet            | Not chosen yet            |
-| Concern before choosing               | Not chosen yet            | Not chosen yet            |
-| What the page should help them decide | Not chosen yet            | Not chosen yet            |
-| Evidence or assumption                | Assumption; not validated | Assumption; not validated |
+| Tiny card                             | Primary audience                                                        | Secondary audience                                                             |
+| ------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| Person in a concrete situation        | Anime fan wearing a graphic tee casually, at meetups/events, or at home | Gift buyer choosing for an Evangelion fan (AI suggestion accepted)             |
+| Goal or meaning they seek             | Boldly show interest in a favorite show                                 | Choose a gift connected to the recipient's fandom (provisional assumption)     |
+| Concern before choosing               | Artwork expresses the intended fandom (provisional assumption)          | May not understand the show or artwork (provisional assumption)                |
+| What the page should help them decide | Whether the visible art expresses their interest                        | Whether this concept matches the recipient's interest (provisional assumption) |
+| Evidence or assumption                | Assumption; not validated                                               | Assumption; not validated                                                      |
 
 ## Early brand brief
 
-| Decision                                 | Agreement      |
-| ---------------------------------------- | -------------- |
-| Brand name                               | Not chosen yet |
-| One-sentence promise                     | Not chosen yet |
-| Primary archetype: the brand's character | Not chosen yet |
-| Three voice traits                       | Not chosen yet |
-| One example line in this voice           | Not chosen yet |
-| Learner's predicted audience effect      | Not chosen yet |
+| Decision                                 | Agreement                                                                                   |
+| ---------------------------------------- | ------------------------------------------------------------------------------------------- |
+| Brand name                               | Ita-Tees — learner connects anime apparel with itasha car decoration                        |
+| One-sentence promise                     | Wear your fandom out loud. (AI suggestion accepted)                                         |
+| Primary archetype: the brand's character | Creator (AI suggestion accepted)                                                            |
+| Three voice traits                       | Bold, playful, welcoming (AI suggestion accepted)                                           |
+| One example line in this voice           | Wear your fandom out loud.                                                                  |
+| Learner's predicted audience effect      | Empower fans and connect to their love of the show; learner enjoys merchandise with artwork |
 
 ## Visual decision
 
@@ -44,25 +44,25 @@ Compare two small hero previews before building the whole page. Hold the product
 
 A simple original SVG wordmark is enough. Show small-size and one-color presentations; they may use the same asset when it works.
 
-| Item                                              | Agreement or evidence |
-| ------------------------------------------------- | --------------------- |
-| Shared headline / support / action                | Not chosen yet        |
-| Modernist preview, reference, and annotations     | Not chosen yet        |
-| Postmodernist preview, reference, and annotations | Not chosen yet        |
-| Chosen direction and reason                       | Not chosen yet        |
-| Original SVG logo                                 | Not chosen yet        |
-| Monochrome and small-size variants                | Not chosen yet        |
-| Logo review at actual use size                    | Not checked yet       |
-| Shared palette, typography, spacing, and assets   | Not chosen yet        |
+| Item                                              | Agreement or evidence                                                                                                                                                                                                |
+| ------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Shared headline / support / action                | Wear your fandom out loud. / White tee with bold mecha artwork for everyday wear, meetups and home / Explore the tee. Identical in both previews.                                                                    |
+| Modernist preview, reference, and annotations     | [Modernist preview](public/explorations/modern.html); Müller-Brockmann, Musica Viva (1958), [MoMA](https://www.moma.org/collection/works/7233/). Reference image visually inspected.                                 |
+| Postmodernist preview, reference, and annotations | [Postmodernist preview](public/explorations/postmodern.html); Bedin, Super lamp prototype (1981), [V&A](https://www.vam.ac.uk/articles/what-is-postmodernism). Reference image visually inspected.                   |
+| Chosen direction and reason                       | B / postmodernist. Learner cites lime button, tilted image, artificial frame shadow and special font as appealing and welcoming. Requested angular English lettering and chose sharply mechanical over hand-painted. |
+| Original SVG logo                                 | [Mechanical wordmark proposal](public/assets/ita-wordmark.svg); approved by learner: “Looks perfect”.                                                                                                                |
+| Monochrome and small-size variants                | [Review board](public/explorations/logo.html), same one-ink SVG at 175px and 110px.                                                                                                                                  |
+| Logo review at actual use size                    | Learner approved board with 175px navigation and 110px small-size samples; AI inspected logo in final desktop/phone renders.                                                                                         |
+| Shared palette, typography, spacing, and assets   | Shared styles.css, ita-wordmark.svg and mecha-shirt.svg. Lavender paper, purple frame, lime action, heavy oblique display and readable system body type.                                                             |
 
 ## Ethical persuasion
 
 Choose two applications that help the visitor make a voluntary, informed decision. Record their real implementation and mechanism rather than a principle name alone. Required size selection or validation alone does not establish consistency. Do not invent social proof, scarcity, authority, or product facts.
 
-| Principle      | Actual copy or interaction | Visitor benefit / factual support |
-| -------------- | -------------------------- | --------------------------------- |
-| Not chosen yet | Not chosen yet             | Not chosen yet                    |
-| Not chosen yet | Not chosen yet             | Not chosen yet                    |
+| Principle   | Actual copy or interaction                                                          | Visitor benefit / factual support                                                                                       |
+| ----------- | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| Reciprocity | Free gift checklist, no signup                                                      | Learner explains parents/friends unfamiliar with the show can organize shopping and find something the recipient loves. |
+| Unity       | Brand story connects itasha car graphics and graphic tees as visible fan expression | AI proposal accepted by learner. Shared interest without fabricated community claims.                                   |
 
 ## BRAND-001 — first branded storefront and live style guide
 
@@ -82,10 +82,18 @@ Keep when:
 
 Write a short result and link only evidence that exists. A passing browser check is evidence for its assertions, not customer research or proof of full accessibility.
 
-| Spec ID   | Files           | Issue / PR      | Actual checks and observations            |
-| --------- | --------------- | --------------- | ----------------------------------------- |
-| BRAND-001 | Not changed yet | Not created yet | Not run yet; learner observations pending |
+| Spec ID   | Files                                                                                                                                                                       | Issue / PR                                                                               | Actual checks and observations                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| BRAND-001 | [Storefront](public/index.html), [live guide](public/styleguide.html), [paired previews](public/explorations/compare.html), [shared graphic](public/assets/mecha-shirt.svg) | [Issue #1](https://github.com/aka223-ui/is117-brand-studio-1/issues/1); branch brand-001 | Final npm run check passed: formatting, HTML/CSS/JS lint, 7 server tests and 10 Chromium browser tests including axe. Image reload test updated to the branded asset path, preserving its assertion. AI inspected storefront, guide, studio and both previews at 1280px/375px: no broken images or horizontal overflow. Learner observed baseline size L added, bag count 1; Learner identified missing-size warning (AI clarified unchanged bag), described fun manga/comic impression, confirmed keyboard focus and adding without mouse, and reported a proportional narrow layout with continuous downward scrolling. Requested blueprint revision, approved it, and requested pushing for submission. After revision, lint and 10 browser tests passed again. |
 
 ## Later
 
 No follow-up is selected. After keeping `BRAND-001`, choose one next cycle: perhaps a brand story, a supported fit guide, or richer demo-bag behavior. Agree its scope and add one new spec ID at that time.
+
+## Concept boundary
+
+Unofficial Evangelion-inspired student concept; original geometric mecha artwork, no endorsement or affiliation. White shirt remains the same across previews; not for sale. Photographer concept was set aside at the learner's request. Audience concerns marked provisional remain assumptions to revisit. Visual direction B, mechanical logo, reciprocity gift checklist and unity brand story are agreed; learner browser checks and artwork approval recorded; PR merge and deployment remain pending.
+
+## Artwork revision
+
+Learner requested a simplified Unit-01 blueprint with Evangelion-related background words because the original helmet did not read clearly as Evangelion. Revised shared SVG uses full-body front elevation, horn, shoulder pylons, long armored limbs, technical grid, and EVANGELION / UNIT-01 / NERV / TOKYO-3 / A.T. FIELD / SYNCHRO lettering. Same artwork in both previews and storefront. Learner approved revised artwork and requested pushing for submission.

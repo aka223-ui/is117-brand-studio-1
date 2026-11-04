@@ -1,24 +1,25 @@
 # Conversation evidence
 
-AI-drafted task evidence, not a transcript or grade. This file may be public: review, correct or remove excerpts before commit/push. Use short actual quotes or labeled paraphrases and disclose help. Approval alone is not an explanation; leave missing evidence pending.
+AI-drafted summary, not a transcript or grade. May be public with the repository. Review, correct or remove excerpts before commit/push.
 
-- **Feature:** BRAND-001 — pending
-- **Date:** Pending
-- **Conversation context available:** Not recorded yet
-- **Review status:** Not reviewed; no learner evidence recorded
+- **Feature:** BRAND-001
+- **Date:** 2026-11-03
+- **Conversation context available:** This chat; earlier GitHub assignment chat unavailable
+- **Review status:** Reviewed by learner on 2026-11-03: “All good, proceed”.
 
 ## Student contributions
 
-| Checkpoint                                   | Actual student words or labeled paraphrase | Assistance supplied | Evidence or gap |
-| -------------------------------------------- | ------------------------------------------ | ------------------- | --------------- |
-| Choice and reason                            | Pending                                    | Pending             | Pending         |
-| Prediction or visitor benefit                | Pending                                    | Pending             | Pending         |
-| Interpretation of one actual test            | Pending                                    | Pending             | Pending         |
-| Browser observation and keep/revise decision | Pending                                    | Pending             | Pending         |
+| Checkpoint                                   | Student contribution (paraphrased)                                                                                                                                                                                                                                                                                                                                                   | Assistance supplied                                                                                                                  | Evidence or gap                                                                                 |
+| -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- |
+| Choice and reason                            | Chose Ita-Tees to connect anime apparel with itasha. Chose Evangelion and direction B for its lime button, tilt, shadow and welcoming feel. Approved a mechanical logo.                                                                                                                                                                                                              | AI guided choices and created previews/logo.                                                                                         | Audience hypotheses remain unvalidated.                                                         |
+| Prediction or visitor benefit                | Expected fans to feel empowered and connected to the show. Chose a gift checklist to help unfamiliar parents/friends choose for the recipient.                                                                                                                                                                                                                                       | AI suggested promise, Creator archetype, bold/playful/welcoming voice, gift-buyer audience, reciprocity and unity; learner accepted. | Prediction, not proven audience response.                                                       |
+| Interpretation of one actual test            | Identified the missing-size warning when adding to the bag.                                                                                                                                                                                                                                                                                                                          | AI clarified that the existing bag must stay unchanged and that the test catches an item added without a size.                       | Assisted interpretation; not wholly independent.                                                |
+| Browser observation and keep/revise decision | Described a fun manga/comic feel from shadows, angular lettering and concise wording. Confirmed visible keyboard focus and adding a size without mouse. Reported a proportional narrow layout with continuous downward scrolling. Requested a Unit-01 blueprint because the original helmet was not recognizable enough; approved the revision and requested pushing for submission. | AI prompted checks and revised the artwork.                                                                                          | Learner observations are not full accessibility or customer research. Merge/deployment pending. |
 
 ## AI work and evidence links
 
-- **Work performed by AI:** Pending
-- **SPEC, issue/PR, actual checks and artifacts:** Pending
+- **Work performed by AI:** Setup, researched previews, original SVG logo/blueprint illustration, storefront, shared live guide, gift checklist, brand story, testing and render review.
+- **Checks:** Full prepared check passed; after the artwork revision, code lint and all 10 browser tests passed again. Desktop/phone renders checked for broken images and overflow.
+- **Evidence:** [SPEC](SPEC.md), [issue #1](https://github.com/aka223-ui/is117-brand-studio-1/issues/1), branch `brand-001`, [previews](public/explorations/compare.html). PR pending.
 
-**Next step:** Pending
+**Next step:** Commit/push, PR review, merge decision and publishing.

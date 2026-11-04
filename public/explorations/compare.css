@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #dedbe4;
+  color: #18151f;
+  font-family: Arial, sans-serif;
+}
+
+header,
+main {
+  padding: 24px;
+}
+
+h1 {
+  font-size: 38px;
+  margin: 0;
+}
+
+a {
+  color: #422474;
+}
+
+iframe {
+  display: block;
+  border: 0;
+  background: white;
+  max-width: none;
+}
+
+.desktop {
+  overflow: auto;
+}
+
+.phones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  overflow: auto;
+}
