@@ -1,10 +1,19 @@
-# IS117 Brand Studio
+# Ita-Tees — Wear your fandom out loud.
 
-**The same white T-shirt can carry very different meanings.** Develop a brand for it with an AI collaborator, then make those decisions visible in a professional website and a live style guide.
+An IS117 student brand project for anime fans and gift buyers: a white T-shirt concept with original simplified Unit-01 blueprint artwork, a mechanical SVG wordmark, and a postmodernist purple/lime identity.
 
-This template starts with a working, deliberately neutral storefront. Your audience, name, promise, logo, voice, and visual direction are **not chosen yet**. You make the decisions; the agent helps you explore, build, check, and revise them.
+**Status:** BRAND-001 implemented and checked on `brand-001`; learner approved the revised artwork. Pull request, merge and deployment are pending. This unofficial Evangelion-inspired classroom concept is not affiliated with or endorsed by the franchise and is not for sale.
 
-**A short record, visible to you:** your AI coach updates [LEARNING.md](LEARNING.md) with brief task-related explanations, observations and help received. It is AI-drafted, not a full transcript, and may be public with your repository. Review it and correct or remove excerpts before they are committed or pushed. Your instructor uses it alongside the project with this [simple three-part rubric](docs/assessment.md); the AI does not assign your grade.
+- Storefront: `public/index.html`
+- Live style guide: `public/styleguide.html` (same CSS tokens and logo)
+- Design comparison: `public/explorations/compare.html`
+- Decisions/checks: [SPEC.md](SPEC.md)
+- AI-drafted learning summary: [LEARNING.md](LEARNING.md)
+- Task: [BRAND-001 / issue #1](https://github.com/aka223-ui/is117-brand-studio-1/issues/1)
+
+The free gift checklist applies reciprocity; the itasha-inspired story applies unity. The demo bag supports size selection and temporary items, without checkout. Prepared checks passed, including 7 server and 10 browser tests; lint and browser tests passed again after the artwork revision. Learner observations are recorded separately from automated checks.
+
+## Original studio setup and instructions
 
 ## Start here
 

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 880" role="img" aria-labelledby="title description">
+  <title id="title">White T-shirt with Unit-01 blueprint artwork</title>
+  <desc id="description">White short-sleeved T-shirt with a simplified Unit-01 blueprint and Evangelion-related background lettering. Unofficial student concept.</desc>
+  <defs>
+    <linearGradient id="fabric" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#eeeee9"/>
+      <stop offset=".24" stop-color="#fff"/>
+      <stop offset=".72" stop-color="#fafbf8"/>
+      <stop offset="1" stop-color="#e9ebe5"/>
+    </linearGradient>
+    <linearGradient id="neck" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#daddd6"/>
+      <stop offset="1" stop-color="#f2f3ee"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-20%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="23" stdDeviation="20" flood-color="#333b2e" flood-opacity=".10"/>
+    </filter>
+  </defs>
+  <rect width="800" height="880" fill="#e8eae1"/>
+  <ellipse cx="400" cy="744" rx="203" ry="23" fill="#d5d9cd" opacity=".6"/>
+  <g filter="url(#shadow)">
+    <path d="M310 144 232 178 110 305 205 394 253 350 248 713Q397 746 552 713L547 350 595 394 690 305 568 178 490 144Q454 185 400 185T310 144Z" fill="url(#fabric)" stroke="#daddd6" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M310 144Q328 226 400 226T490 144L468 135Q444 162 400 162T332 135Z" fill="url(#neck)" stroke="#d4d8ce" stroke-width="2"/>
+    <path d="M332 135Q340 192 400 192T468 135Q444 162 400 162T332 135Z" fill="#d5d9cf"/>
+    <path d="M317 146Q334 213 400 213T483 146M253 350 262 277M547 350 538 277M248 695Q400 723 552 695M123 303 207 381M677 303 593 381" fill="none" stroke="#dfe2d9" stroke-width="3"/>
+    <path d="M275 385Q282 494 267 605M525 385Q518 494 533 605" fill="none" stroke="#e6e9e1" stroke-width="5" opacity=".8"/>
+  </g>
+<g transform="translate(282 265)">
+<defs><pattern id="technical-grid" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M16 0H0V16" fill="none" stroke="#b9a6db" stroke-width=".4" opacity=".5"/></pattern></defs>
+<rect width="236" height="342" fill="#201b30"/>
+<rect width="236" height="342" fill="url(#technical-grid)"/>
+<g font-family="Arial, sans-serif" font-weight="900" fill="#a18ac7" opacity=".23">
+<text x="6" y="61" font-size="30" textLength="224" lengthAdjust="spacingAndGlyphs">EVANGELION</text>
+<text x="6" y="110" font-size="47" textLength="224" lengthAdjust="spacingAndGlyphs">UNIT-01</text>
+<text x="6" y="160" font-size="43" textLength="224" lengthAdjust="spacingAndGlyphs">NERV</text>
+<text x="6" y="210" font-size="41" textLength="224" lengthAdjust="spacingAndGlyphs">TOKYO-3</text>
+<text x="6" y="260" font-size="37" textLength="224" lengthAdjust="spacingAndGlyphs">A.T. FIELD</text>
+<text x="6" y="309" font-size="38" textLength="224" lengthAdjust="spacingAndGlyphs">SYNCHRO</text>
+</g>
+<g fill="none" stroke="#9c91b0" stroke-width=".65" stroke-dasharray="3 3"><path d="M118 28V310M35 67H204M35 134H204M35 222H204M35 301H204"/><circle cx="118" cy="134" r="76"/></g>
+<!-- Original simplified front elevation: horn, shoulder pylons, narrow waist and long armored legs. -->
+<g fill="#29213d" stroke="#e9ddff" stroke-width="1.6" stroke-linejoin="bevel">
+<path d="m117 33 4 22 10 10-3 21-10 12-11-12-3-21 10-10Z"/>
+<path d="m105 67 11 5 2 13-9-7m22-11-11 5-2 13 9-7" fill="#a4ff47" stroke-width=".7"/>
+<path d="m116 72 2 17 5-8m-12 6 7 6 7-6" fill="none"/>
+<path d="m76 103-8-53 12-7 11 54-3 22Zm84 0 8-53-12-7-11 54 3 22Z" fill="#7956ad"/>
+<path d="m70 57 9-5 5 18-10 4Zm96 0-9-5-5 18 10 4Z" fill="#a4ff47" stroke-width=".8"/>
+<path d="m105 93-17 5-8 23 16 19 10-4 12 10 12-10 10 4 16-19-8-23-17-5-13 9Z" fill="#7956ad"/>
+<path d="m89 105 16 7 13-7 13 7 16-7-8 18-21 8-21-8Z" fill="#a4ff47"/>
+<path d="m100 136 18 10 18-10-5 15-13 5-13-5Z"/>
+<path d="m105 155 13 4 13-4-2 12-11 5-11-5Zm2 16 11 4 11-4 4 12-15 9-15-9Z" fill="#7956ad"/>
+<path d="m81 112-12 9-5 39 10 8 13-39Zm74 0 12 9 5 39-10 8-13-39Z" fill="#7956ad"/>
+<path d="m65 159-5 37 9 13 8-10-3-31Zm106 0 5 37-9 13-8-10 3-31Z"/>
+<path d="m62 180 8 2 2 15-7 3Zm112 0-8 2-2 15 7 3Z" fill="#a4ff47" stroke-width=".7"/>
+<path d="m60 199-4 17 5 8 3-11 5 12 6-6-5-15Zm116 0 4 17-5 8-3-11-5 12-6-6 5-15Z"/>
+<path d="m104 184-10 9-2 35 16 5 10-40 10 40 16-5-2-35-10-9-14 9Z" fill="#7956ad"/>
+<path d="m92 229 16 5-4 15-13-3Zm52 0-16 5 4 15 13-3Z" fill="#a4ff47"/>
+<path d="m92 247 12 3-1 37-10 8-9-5Zm52 0-12 3 1 37 10 8 9-5Z" fill="#7956ad"/>
+<path d="m87 270 13 1-3 17-10-1Zm62 0-13 1 3 17 10-1Z" fill="#a4ff47" stroke-width=".7"/>
+<path d="m85 289 12 4 4 13-24 1-1-6Zm66 0-12 4-4 13 24 1 1-6Z"/>
+</g>
+<g fill="none" stroke="#a4ff47" stroke-width=".7"><path d="M42 46V307m-4-261h8m-8 261h8M84 83H59l-7-9m97 42h36l7-9m-55 122h45l10-10"/></g>
+<g fill="#e9ddff" font-family="monospace" font-size="5.5" letter-spacing=".5"><text x="9" y="19">ITA-TEES / TECHNICAL STUDY</text><text x="7" y="326">UNIT-01 / FRONT ELEVATION</text><text x="7" y="336">EVANGELION • UNOFFICIAL FAN CONCEPT</text></g>
+<text x="185" y="29" fill="#a4ff47" font-family="Arial, sans-serif" font-size="23" font-weight="900">01</text>
+</g></svg>
