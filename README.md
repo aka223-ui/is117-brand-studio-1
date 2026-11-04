@@ -2,7 +2,13 @@
 
 An IS117 student brand project for anime fans and gift buyers: a white T-shirt concept with original simplified Unit-01 blueprint artwork, a mechanical SVG wordmark, and a postmodernist purple/lime identity.
 
-**Status:** BRAND-001 implemented and checked on `brand-001`; learner approved the revised artwork. Pull request, merge and deployment are pending. This unofficial Evangelion-inspired classroom concept is not affiliated with or endorsed by the franchise and is not for sale.
+**Status:** BRAND-001 completed, checked and [merged through pull request #2](https://github.com/aka223-ui/is117-brand-studio-1/pull/2). The learner reviewed the learning summary and approved keeping and merging the revised work. This unofficial Evangelion-inspired classroom concept is not affiliated with or endorsed by the franchise and is not for sale.
+
+**Live website:** [Ita-Tees](https://aka223-ui.github.io/is117-brand-studio-1/)
+
+**Live style guide:** [Ita-Tees identity guide](https://aka223-ui.github.io/is117-brand-studio-1/styleguide.html)
+
+[Successful initial deployment](https://github.com/aka223-ui/is117-brand-studio-1/actions/runs/41760253499). Storefront, guide and artwork verified accessible.
 
 - Storefront: `public/index.html`
 - Live style guide: `public/styleguide.html` (same CSS tokens and logo)

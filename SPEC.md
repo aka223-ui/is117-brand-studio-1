@@ -6,10 +6,10 @@ This is the durable agreement between the learner and agent. Keep it concise and
 
 ## Current stage
 
-- Stage: Revised artwork approved; preparing reviewed submission records.
+- Stage: BRAND-001 kept, merged and published.
 - Current feature: `BRAND-001` — first branded storefront and live style guide.
-- Status: Scope agreed; issue #1 and branch brand-001 exist.
-- Next small decision: Review LEARNING.md for accuracy before commit/push.
+- Status: Complete. Learner approved merge; PR #2 verified merged into main.
+- Next step: Submit repository URL through Canvas Website URL option.
 
 ## Product boundary
 
@@ -92,8 +92,16 @@ No follow-up is selected. After keeping `BRAND-001`, choose one next cycle: perh
 
 ## Concept boundary
 
-Unofficial Evangelion-inspired student concept; original geometric mecha artwork, no endorsement or affiliation. White shirt remains the same across previews; not for sale. Photographer concept was set aside at the learner's request. Audience concerns marked provisional remain assumptions to revisit. Visual direction B, mechanical logo, reciprocity gift checklist and unity brand story are agreed; learner browser checks and artwork approval recorded; PR merge and deployment remain pending.
+Unofficial Evangelion-inspired student concept; original geometric mecha artwork, no endorsement or affiliation. White shirt remains the same across previews; not for sale. Photographer concept was set aside at the learner's request. Audience concerns marked provisional remain assumptions to revisit. Visual direction B, mechanical logo, reciprocity gift checklist and unity brand story are agreed; learner browser checks and artwork approval recorded; approved PR merged and deployment verified.
 
 ## Artwork revision
 
 Learner requested a simplified Unit-01 blueprint with Evangelion-related background words because the original helmet did not read clearly as Evangelion. Revised shared SVG uses full-body front elevation, horn, shoulder pylons, long armored limbs, technical grid, and EVANGELION / UNIT-01 / NERV / TOKYO-3 / A.T. FIELD / SYNCHRO lettering. Same artwork in both previews and storefront. Learner approved revised artwork and requested pushing for submission.
+
+## Final delivery
+
+- Learner reviewed LEARNING.md and approved publication: “All good, proceed”.
+- [BRAND-001 pull request #2](https://github.com/aka223-ui/is117-brand-studio-1/pull/2) merged after learner approval; verified merge commit `4b0620b9bbb078c7e9a3cc8e50363c54e591b961`.
+- [GitHub Pages storefront](https://aka223-ui.github.io/is117-brand-studio-1/) and [live guide](https://aka223-ui.github.io/is117-brand-studio-1/styleguide.html) verified accessible.
+- [Deployment run](https://github.com/aka223-ui/is117-brand-studio-1/actions/runs/41760253499): checks and publishing succeeded.
+- Canvas submission is the learner's next step; not yet confirmed submitted.
