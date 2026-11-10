@@ -1,0 +1,195 @@
+/* Documentation uses the storefront's shared brand tokens. */
+.research-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding-block: 2rem;
+  border-bottom: 1px solid var(--color-line);
+}
+
+.research-header nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.3rem;
+  font-size: 0.85rem;
+}
+
+.research-hero {
+  padding-block: 4rem 2rem;
+  max-width: 1100px;
+}
+
+.research-hero h1 {
+  font-size: clamp(3.5rem, 8vw, 7rem);
+  line-height: 0.98;
+  margin-block: 1.5rem;
+  font-family: var(--font-display);
+  font-style: oblique;
+  letter-spacing: -0.06em;
+}
+
+.research-hero > p {
+  max-width: 700px;
+}
+
+.lead {
+  font-size: 1.35rem;
+  line-height: 1.5;
+}
+
+.hero-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 2rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  background: var(--color-accent);
+  border: 2px solid var(--color-ink);
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  box-shadow: 5px 5px 0 var(--color-ink);
+}
+
+.research-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem 1.5rem;
+  border-bottom: 1px solid var(--color-line);
+  padding-block: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.research-body {
+  max-width: 1000px;
+  margin-inline: auto;
+}
+
+.research-section {
+  padding-block: 3rem;
+  border-bottom: 1px solid var(--color-line);
+  scroll-margin-top: 1rem;
+}
+
+.research-section h2 {
+  font-size: clamp(1.8rem, 4vw, 2.7rem);
+  margin-block: 0.5rem 1.5rem;
+  line-height: 1.15;
+}
+
+.research-section h3 {
+  font-size: 1.25rem;
+  margin-block: 0.7rem 1rem;
+  line-height: 1.4;
+  letter-spacing: 0;
+}
+
+.research-section p {
+  margin-block: 1rem;
+  max-width: 78ch;
+}
+
+.source-card {
+  padding: 1.5rem 2rem;
+  background: var(--color-white);
+  border: 1px solid var(--color-ink);
+  margin-block: 1.5rem;
+  box-shadow: 5px 5px 0 var(--color-line);
+}
+
+.source-date {
+  font-size: 0.8rem;
+  color: var(--color-muted);
+}
+
+.comparison {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.comparison article {
+  background: var(--color-soft);
+  padding: 1.5rem;
+  border: 1px solid var(--color-line);
+}
+
+.tag {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  background: var(--color-accent);
+  padding: 0.25rem 0.5rem;
+}
+
+.notice {
+  border-left: 4px solid var(--color-purple);
+  padding-left: 1rem;
+}
+
+.research-section blockquote {
+  margin: 1.5rem 0;
+  padding: 1rem 1.5rem;
+  border-left: 4px solid var(--color-purple);
+  background: var(--color-soft);
+}
+
+.history li,
+.research-section ul li {
+  margin-block: 0.8rem;
+}
+
+.research-main a {
+  overflow-wrap: anywhere;
+}
+
+@media (width <= 760px) {
+  .research-header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .research-hero {
+    padding-top: 2rem;
+  }
+
+  .comparison {
+    grid-template-columns: 1fr;
+  }
+
+  .source-card {
+    padding: 1.25rem;
+  }
+
+  .research-section {
+    padding-block: 2rem;
+  }
+
+  .lead {
+    font-size: 1.15rem;
+  }
+}
+
+@media print {
+  .research-nav,
+  .skip-link {
+    display: none;
+  }
+
+  .research-section {
+    break-inside: avoid;
+  }
+
+  .research-hero h1 {
+    font-size: 3rem;
+  }
+
+  body {
+    background: white;
+  }
+
+  .source-card {
+    box-shadow: none;
+  }
+}
