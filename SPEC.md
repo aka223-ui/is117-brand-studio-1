@@ -105,3 +105,11 @@ Learner requested a simplified Unit-01 blueprint with Evangelion-related backgro
 - [GitHub Pages storefront](https://aka223-ui.github.io/is117-brand-studio-1/) and [live guide](https://aka223-ui.github.io/is117-brand-studio-1/styleguide.html) verified accessible.
 - [Deployment run](https://github.com/aka223-ui/is117-brand-studio-1/actions/runs/41760253499): checks and publishing succeeded.
 - Canvas submission is the learner's next step; not yet confirmed submitted.
+
+## Research checkpoint — November 10, 2026
+
+[Published Research record](https://aka223-ui.github.io/is117-brand-studio-1/research.html) is included in [PR #4](https://github.com/aka223-ui/is117-brand-studio-1/pull/4); the learner approved merging and publication on November 10. It compares Hot Topic, UNIQLO and Ripple Junction original product pages, two positioning options, and the existing two audience hypotheses. It preserves the current brand and distinguishes source observations, interpretations, assumptions and planned human checks. This research follows the original November 3 prototype and precedes this revision; it is not backdated.
+
+[Issue #3](https://github.com/aka223-ui/is117-brand-studio-1/issues/3) informs the short artwork explanation prepared in `public/index.html`. Decision: implement the explanation; retain the expressive artwork. Current checks: formatting/lint, 7 server tests and 12 Chromium browser tests passed on November 10; research page included in link/anchor, image, automated accessibility and 375px overflow checks. AI inspected desktop/phone previews. Reviewer comprehension check and retry remain pending; issue stays open. Outgoing peer-review issue links and in-class audience explanation are not evidenced in this chat.
+
+AI researched and drafted the new content; no new learner explanations or human results have been inferred. Existing approved learning excerpts are unchanged.
