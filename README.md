@@ -21,6 +21,12 @@ An IS117 student brand project for anime fans and gift buyers: a white T-shirt c
 
 The free gift checklist applies reciprocity; the itasha-inspired story applies unity. The demo bag supports size selection and temporary items, without checkout. Prepared checks passed, including 7 server and 10 browser tests; lint and browser tests passed again after the artwork revision. Learner observations are recorded separately from automated checks.
 
+## Plan checkpoint — November 17, 2026
+
+[Plan in the same published record](https://aka223-ui.github.io/is117-brand-studio-1/research.html#plan) · [SPEC Plan](SPEC.md#2-plan--plan-001--november-17-2026) · [Issue #5](https://github.com/aka223-ui/is117-brand-studio-1/issues/5).
+
+The learner selected explanation-first for unfamiliar buyers. The plan compares two flows and specifies five stories, simulated checkout and local SQLite save/reopen checks. This is a documentation checkpoint: checkout/SQLite implementation and today's classmate review are pending. The current public prototype is a temporary demo bag, not a working SQLite shop.
+
 ## Original studio setup and instructions
 
 ## Start here

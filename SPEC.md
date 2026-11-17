@@ -113,3 +113,55 @@ Learner requested a simplified Unit-01 blueprint with Evangelion-related backgro
 [Issue #3](https://github.com/aka223-ui/is117-brand-studio-1/issues/3) informs the short artwork explanation prepared in `public/index.html`. Decision: implement the explanation; retain the expressive artwork. Current checks: formatting/lint, 7 server tests and 12 Chromium browser tests passed on November 10; research page included in link/anchor, image, automated accessibility and 375px overflow checks. AI inspected desktop/phone previews. Reviewer comprehension check and retry remain pending; issue stays open. Outgoing peer-review issue links and in-class audience explanation are not evidenced in this chat.
 
 AI researched and drafted the new content; no new learner explanations or human results have been inferred. Existing approved learning excerpts are unchanged.
+
+## 2. Plan — PLAN-001 / November 17, 2026
+
+### Goal and compact brand brief
+
+Help anime fans understand the Unit-01 graphic and try a clearly labeled demo order; gift buyers provide a contrasting comprehension check. Both audience cards remain hypotheses. Preserve Ita-Tees' promise, “Wear your fandom out loud,” Creator character and bold, playful, welcoming voice.
+
+Reuse the mechanical wordmark, lavender paper, purple framing, lime actions, angular oblique headings, hard shadows and readable body text from the [live style guide](https://aka223-ui.github.io/is117-brand-studio-1/styleguide.html). Existing [modernist/postmodernist previews](https://aka223-ui.github.io/is117-brand-studio-1/explorations/compare.html) remain historical visual explorations, not working checkout versions. Visual references and translated choices are recorded above in SPEC: Müller-Brockmann’s Musica Viva (MoMA) for alignment/hierarchy and Bedin’s Super lamp (V&A) for playful unexpected framing. The approved expressive identity is retained in both new flows.
+
+Keep two honest persuasion elements: reciprocity through a free gift checklist without signup; unity through the itasha/fandom-expression story. They offer practical help and shared-interest context, not proven conversion gains. No fabricated reviews, scarcity, licensing or customer counts. Retain unofficial student concept, not for sale and fictional demo-price labels.
+
+### Compare two concise approaches
+
+A — Artwork first: promise → large blueprint graphic → short Unit-01 explanation → gift checklist → size/quantity → itemized review → simulated checkout → saved receipt/history. Benefit hypothesis: fans inspect the art quickly. Risk: unfamiliar buyers encounter unexplained references first.
+
+B — Explanation first: promise → short Unit-01 explanation and gift checklist → same graphic → same size/quantity, review, simulated checkout and receipt/history. Benefit hypothesis: unfamiliar buyers understand the reference before acting. Risk: returning fans may need to scroll further to shop.
+
+Selected for the next build: B, explanation first. The learner selected it to help unfamiliar buyers. A remains the comparison. Keep the same shirt/art, headline/supporting wording, $28 fictional unit price, available sizes, main action and backend. Only information order changes; this is a flow comparison, not a new visual-style contest. Main checkout action: “Place demo order — no payment.” Neither flow is implemented as a working checkout yet.
+
+### Shared stories, essential features and observable checks
+
+S1 / Understand the concept. As a fan or unfamiliar gift buyer, I want a plain explanation so I can judge whether the artwork suits the recipient. F1: identify Unit-01 from Neon Genesis Evangelion, link the free checklist and show concept limits. Check: a classmate explains the reference, intended audience and “not a real shop” without coaching; record their actual response and revise if unclear. Planned, not run.
+
+S2 / Choose and review. As a demo shopper, I want size, quantity and an itemized total so I know what my selection includes. F2: sizes S/M/L/XL, integer quantity 1–5, and $28 fictional unit price; demo shipping/tax explicitly $0, no fulfillment. Check: M × 2 shows M, quantity 2 and $56 total; changing to 1 shows $28; opening the checklist preserves choices. Missing/unsupported size and quantity 0, 6 or 1.5 are rejected. Do not invent garment measurements or a fit guarantee. Planned, not run.
+
+S3 / Complete safely. As a demo shopper, I want validation and a clear receipt so I know whether the simulated checkout succeeded. F3: synthetic email, review screen, save indicator, error feedback and demo reference. Check: missing size/invalid email prevents an order; a valid M × 2 submission creates one receipt only after a successful database save. A forced save failure shows an error, keeps input, and creates no success receipt. Disable repeated submission while saving. Planned, not run.
+
+S4 / Save and reopen. As a reviewer, I want saved demo orders to survive restart so I can verify SQLite persistence. F4: Node 24 local server and SQLite database outside public files; order history contains reference, items and total, not email. Check: order M × 2 using demo@example.test, copy its reference, stop/restart with the same database path, reopen history and find that reference with $56. Clear browser storage and verify the server record remains. Planned, not run; browser storage alone does not pass.
+
+S5 / Use either flow. As a keyboard or phone user, I want reachable controls and readable errors so I can complete the same demo task in A and B. F5: semantic labels, visible focus, associated validation messages and responsive summary. Check: complete the task using only keyboard; at 375px width inspect controls and page overflow; repeat both flows. Automated accessibility checks supplement human observation, not a full accessibility claim. Planned, not run.
+
+### SQLite implementation and data plan
+
+Reuse the supported Campus Cotton starter selectively or adapt its validation/storage pattern into this app; preserve the current working copy and document changed files. [Supported setup and save/reopen instructions](https://kaw393939.github.io/is117-demo-days/examples/submissions/run-examples.html). Starter reuse has not happened yet.
+
+Proposed local API: GET /api/products for trusted catalog prices; POST /api/orders validates product/size/quantity and synthetic email, recalculates totals from SQLite prices and commits the order in a transaction; GET /api/orders retrieves synthetic demo history. Products hold ID, name and price in integer cents. Orders hold ID/reference, timestamp and total cents; order_items hold order/product IDs, size, quantity and the saved unit price. Use parameterized queries and foreign keys. Validate but do not persist/send email. Reject unsupported values and ignore client-submitted prices/totals. Keep SQLite files out of Git/public assets.
+
+Checks for backend build: submitting a forged total must still save 5600 cents for two $28 shirts; malformed inputs must not increase order count; restart must retain the same reference and historical price. These checks are specified, not passed. GitHub Pages cannot run this Node/SQLite server. The public preview must state its static/demo limits; SQLite evidence comes from the local server until a suitable backend is actually deployed. Do not expose the teaching server as a real shop.
+
+### Scope, sequence and deferred work
+
+Essential: F1–F5. Build a small slice first: run/save/reopen the starter; adapt catalog/validation; connect shared checkout; build A/B orders of content; verify both and record results. Preserve existing logo, shared CSS and research. Defer real payments, accounts, shipping, inventory, discounts, analytics, actual fit guide and customer data. No extra business or separate report is needed.
+
+### In-class review and same-plan revision
+
+Scheduled for November 17; not yet happened at preparation time. Reviewer/date, story explained, observable check explained, useful question, resulting change and retry: pending. Attendance/participation are not verified by this record. Ask the classmate to explain S4: why a receipt after refresh alone is insufficient, and how stopping/restarting with the same database verifies persistence. Record their own answer, not this prompt as their response. Add the actual question and improve this same Plan section afterward.
+
+### Issue, checks and assistance
+
+[PLAN-001 issue #5](https://github.com/aka223-ui/is117-brand-studio-1/issues/5) tracks the plan; [peer issue #3](https://github.com/aka223-ui/is117-brand-studio-1/issues/3) motivates the artwork explanation and remains open for reader retry. This revision changes documentation only. The current prototype still has a temporary bag, no checkout and no SQLite; earlier brand checks do not prove the planned features work. AI inspected the existing record and course sources, drafted the plan and prepared technical checks; the learner selected explanation-first for unfamiliar buyers. New implementation, in-class results and learning outcomes are not inferred. Keep using this SPEC and published research record.
+
+November 17 documentation verification: Prettier, HTML/CSS/JavaScript lint, all 7 existing server tests, internal-anchor checks and git diff --check passed. The 12 browser tests could not launch because the required Chromium binary was unavailable; the supported setup command failed downloading a valid archive. No new browser, human, checkout or SQLite pass is claimed. CI will run the repository checks on the pull request.
